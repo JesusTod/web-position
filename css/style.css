@@ -1,0 +1,241 @@
+body{
+    min-height: 2000px;
+}
+
+/* position: absolute */
+.walls{
+    position: absolute;
+    background-color: red;    
+    width: 350px;
+    height: 350px;
+    top: 50px;
+    border-radius: 100px 100px 0px 0px;
+    bottom: 100px;
+    z-index: 1;
+    top: 50px;
+    left: 1430px;
+}
+
+.roof{
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 100px solid green;
+    z-index: 10;
+    left: 1360px;
+    top: 5px
+}
+.door{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    z-index: 10;
+    left: 1650px;
+    top: 200px
+}
+
+.window{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 10;
+    border: 5px double black;
+    padding: 10px;
+    left: 1470px;
+    top: 180px
+}
+
+/* position: fixed */ 
+
+.roof_1{
+    position: fixed;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 100px solid rgb(85, 34, 34);
+    z-index: 10;
+    left: 680px;
+}
+
+.walls_1{
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    top: 50px;
+    background-color: black;
+    left: 750px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.door_1{
+    position: fixed;
+    width: 100px;
+    height: 200px;
+    background-color: wheat;
+    z-index: 10;
+    left: 790px;
+    top: 200px
+}
+
+.window_1{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 10;
+    border: 10px double brown;
+    padding: 10px;
+    left: 930px;
+    top: 180px
+}
+
+/* position: relaitve */
+
+.roof_2{
+    position: relative;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 100px solid rgb(170, 117, 146);
+    z-index: 10;
+    left: 1180px;
+    top: 500px
+}
+
+.walls_2{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    top: 440px;
+    background-color: orange;
+    left: 1250px;
+    border-radius: 100px 100px 0px 0px;
+    z-index: 0
+}
+
+.door_2{
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: purple;
+    z-index: 10;
+    left: 1290px;
+    top: 240px
+}
+
+.window_2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 10;
+    border: 10px double whitesmoke;
+    padding: 10px;
+    left: 1430px;
+    top: 0px
+}
+
+/* position: sticky */
+
+.walls_3{
+    position: sticky;
+    background-color: grey;    
+    width: 350px;
+    height: 350px;
+    top: 50px;
+    border-radius: 100px 100px 0px 0px;
+    bottom: 100px;
+    z-index: 1;
+    top: 550px;
+    left: 1330px;
+}
+
+.roof_3{
+    position: sticky;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 100px solid rebeccapurple;
+    z-index: 10;
+    left: 1260px;
+    top: 500px
+}
+.door_3{
+    position: sticky;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(37, 28, 28);
+    z-index: 10;
+    left: 1550px;
+    top: 700px
+}
+
+.window_3{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 10;
+    border: 10px double rgb(117, 56, 56);
+    padding: 10px;
+    left: 1370px;
+    top: 680px
+}
+
+/* position: static */
+
+.roof_4{
+    position: static;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 100px solid yellowgreen;
+    z-index: 10;
+    left: 680px;
+}
+
+.walls_4{
+    position: static;
+    width: 350px;
+    height: 350px;
+    top: 50px;
+    background-color: grey;
+    left: 750px;
+    border-radius: 100px 100px 0px 0px;
+    box-sizing: content-box;
+}
+
+.door_4{
+    position: static;
+    width: 100px;
+    height: 200px;
+    background-color: orangered;
+    z-index: 10;
+    left: 790px;
+    top: 200px
+}
+
+.window_4{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 10;
+    border: 10px double blue;
+    padding: 10px;
+    left: 930px;
+    top: 180px
+}
